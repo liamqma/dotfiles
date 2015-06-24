@@ -113,11 +113,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# source profile from dotfiles
-if [ -f ~/.bash_profile ]; then
-    . ~/.bash_profile
-fi
-
 # update path, move to profile
 export PATH=/home/liam/bin:$PATH
 export PATH=/home/liam/npm/bin:$PATH
