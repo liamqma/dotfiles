@@ -114,5 +114,5 @@ if ! shopt -oq posix; then
 fi
 
 # update path, move to profile
-export PATH=/home/liam/bin:$PATH
-export PATH=/home/liam/npm/bin:$PATH
+export PATH=~/bin:$PATH
+export PATH=~/npm/bin:$PATH
