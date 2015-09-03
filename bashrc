@@ -116,3 +116,5 @@ fi
 # update path, move to profile
 export PATH=~/bin:$PATH
 export PATH=~/npm/bin:$PATH
+export NODE_PATH=~/npm/lib/node_modules
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
